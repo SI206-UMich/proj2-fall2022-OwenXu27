@@ -393,4 +393,19 @@ if __name__ == '__main__':
     unittest.main(verbosity=2)
     # get_detailed_listing_database("html_files/mission_district_search_results.html")
 
+#a.
+# I think we could adopt a new system where new users are asked to enter their business license's number when they upload their home on airbnb. Once the license number has been received by the user, airbnb can first quickly check whether the license number conforms to the basic formatting specifications via regex; once this step is passed, it should take some time to go to the San Francisco Planning Office to check the number. Airbnb will only list the home after the license has been found and verified. However, the difficulty that this new system may cause is that, from the airbnb side, the new system not only extends the waiting time for users, but also adds additional workload to the system. And if you need to get the data of SFPO reasonably and legally also need to put effort. And for SFPO, they may need to share their database to airbnb. this may be met with data confidentiality agreement issues.
+
+#b.
+# I think we can use airbnb's data to study whether Americans have enough housing, because houses are marked on airbnb whether they are whole houses or individual rooms. We can roughly assume that detached room homeowners only have mobile homes, while whole house homeowners have at least 2 or more residences. From there, we can make a rough judgment with this information.
+
+#c.
+# It is undeniable that when a programmer is trying to crawl information from a website, it can cause a sudden increase in the amount of computation on the website's server. Occupying a lot of CPU utilization, CPU utilization reaches 100%, the user access to the site is: access speed is very slow, often can not brush out. In serious cases, it will lead to the website crash. If the website is a website selling items, this may cause the website to be unable to sell items as originally planned. Resulting in financial loss. So I think we should think about whether our actions will affect the normal operation of the website when we are scraping the website information.
+
+#d.
+# When scraping public data, we should think about the following guide lines in order to protect the privacy of users' information.
+# Is this data allowed to be scraped by the data collector (contributor)?
+# Are we allowed to use this data for our profit or non-profit purposes?
+# Is there a risk of violating anyone's privacy issues if the data is used?
+
 
