@@ -172,7 +172,6 @@ def get_detailed_listing_database(html_file):
     info_list = []
     for i in range(len(title_list)):
         info_list.append((title_list[i],price_list[i],id_list[i],pl_num_list[i],platp_list[i],numRoom_list[i]))
-    # print (info_list)
     return (info_list)
     
 
