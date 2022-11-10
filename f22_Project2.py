@@ -391,7 +391,7 @@ if __name__ == '__main__':
     write_csv(database, "airbnb_dataset.csv")
     check_policy_numbers(database)
     unittest.main(verbosity=2)
-    # get_detailed_listing_database("html_files/mission_district_search_results.html")
+    
 
 #a.
 # I think we could adopt a new system where new users are asked to enter their business license's number when they upload their home on airbnb. Once the license number has been received by the user, airbnb can first quickly check whether the license number conforms to the basic formatting specifications via regex; once this step is passed, it should take some time to go to the San Francisco Planning Office to check the number. Airbnb will only list the home after the license has been found and verified. However, the difficulty that this new system may cause is that, from the airbnb side, the new system not only extends the waiting time for users, but also adds additional workload to the system. And if you need to get the data of SFPO reasonably and legally also need to put effort. And for SFPO, they may need to share their database to airbnb. this may be met with data confidentiality agreement issues.
